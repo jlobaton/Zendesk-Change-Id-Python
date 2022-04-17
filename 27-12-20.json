@@ -1,0 +1,30 @@
+{
+    "macros": [
+
+{
+    "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182114852.json",
+    "id": 360182114852,
+    "title": "SAC::Queja::Respuesta a una Queja",
+    "active": true,
+    "updated_at": "2020-12-20T13:36:19Z",
+    "created_at": "2020-11-11T19:09:03Z",
+    "position": 67,
+    "description": "Respuesta a una Queja",
+    "actions": [{
+        "field": "comment_value_html",
+        "value": "<p>Estimado/a {% if ticket.ticket_form == '[CRM] Liquidaciones' or ticket.ticket_form == '[CRM] Prestación del Servicio' or ticket.ticket_form == '[CRM] Cobranzas Individual' or ticket.ticket_form == '[CRM] Movimientos Individual' or ticket.ticket_form == '[CRM] Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021790451}}{% else %}{{ ticket.ticket_field_360028889271}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360036744532}}<br></p><p>Contrato: {{ticket.ticket_field_360036732012}}<br></p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>En atención a su requerimiento presentado reiteramos nuestras disculpas por el malestar ocasionado y ratificamos nuestro compromiso de servicio. <br><br>De acuerdo a lo conversado <b>[campo editado por el agente (detallar el acuerdo/solución otorgado al cliente)].</b><br><br>Tomaremos las acciones correctivas pertinentes para que este tipo de inconvenientes no se vuelva a suscitar.<br><br>[Para su respaldo se adjunta la siguiente información:<br>[Detallar documentos adjuntos]]<br><br>Agradecemos su comprensión esperando poder servirle en una próxima oportunidad. Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.<br><br>Atentamente, <br>{{ticket.assignee.name}}​​ <br></p>"
+    }, {
+        "field": "comment_value",
+        "value": "Estimado/a {% if ticket.ticket_form == '[CRM] Liquidaciones' or ticket.ticket_form == '[CRM] Prestación del Servicio' or ticket.ticket_form == '[CRM] Cobranzas Individual' or ticket.ticket_form == '[CRM] Movimientos Individual' or ticket.ticket_form == '[CRM] Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021790451}}{% else %}{{ ticket.ticket_field_360028889271}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360036744532}}\nContrato: {{ticket.ticket_field_360036732012}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nEn atención a su requerimiento presentado reiteramos nuestras disculpas por el malestar ocasionado y ratificamos nuestro compromiso de servicio.\n\nDe acuerdo a lo conversado [campo editado por el agente (detallar el acuerdo/solución otorgado al cliente)].\n\nTomaremos las acciones correctivas pertinentes para que este tipo de inconvenientes no se vuelva a suscitar.\n\n[Para su respaldo se adjunta la siguiente información:\n[Detallar documentos adjuntos]]\n\nAgradecemos su comprensión esperando poder servirle en una próxima oportunidad. Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​​ "
+    }],
+    "restriction": {
+        "type": "Group",
+        "id": 360013874791,
+        "ids": [360013874791, 360013483871, 360013499192, 360013484091, 360013498792, 360013499092, 360013483691, 360013498952, 360013514112, 360013514092, 360013501312, 360013486231, 360013486511, 360013501752, 360013507371, 360013520732, 360013525172, 360013525192, 360013525212, 360013496752, 360013725831, 360013739992, 360013497311, 360013520912, 360013505051, 360013505171, 360013521452, 360013522072, 360013522232, 360013506431, 360013523032, 360013862031, 360013496371, 360013494331, 360013496211, 360013509832, 360013495931, 360013501972, 360013496151, 360013500632, 360013511912, 360013512412, 360013498271, 360013480991, 360013520832, 360013484311, 360013485111, 360013506751, 360013522992, 360013499252, 360013523132, 360013498832, 360013484011, 360013506551, 360013513352, 360013483351, 360011526271, 360013482711, 360013498172, 360013500112, 360013501012, 360013484591, 360013499912, 360013500372, 360013500892, 360013506651, 360013496591, 360013497251, 360013497191, 360013522692, 360013506891, 360013523172, 360013505671, 360013506291, 360013508291, 360013524092, 360013524152, 360013524192, 360013524212, 360013508491, 360013508511, 360013524232, 360013524252, 360013524292, 360013508571, 360013507591, 360013524052, 360013508591, 360013508631, 360013508731, 360013524352, 360013524392, 360013508831, 360013524412, 360013508931, 360013524572, 360013524592, 360013509091]
+},
+    "highlights": {
+        "title": "<em>SAC</em>::Queja::Respuesta a una Queja"
+    }
+}
+    ]
+}

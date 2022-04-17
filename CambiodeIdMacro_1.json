@@ -1,0 +1,1054 @@
+{
+    "macros": [{
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182223731.json",
+        "id": 360182223731,
+        "title": "SAC::Movimientos::Reactivaciones",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:17Z",
+        "created_at": "2020-11-16T01:06:38Z",
+        "position": 102,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud se ha reactivado el contrato No.{{ticket.ticket_field_360039631111}} del producto <b>[nombre del producto]</b></p><p><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​</p>"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Movimientos::Reactivaciones"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182501932.json",
+        "id": 360182501932,
+        "title": "SAC::Servicios Adicionales::Exequial",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:21Z",
+        "created_at": "2020-11-15T03:17:52Z",
+        "position": 86,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para acceder al beneficio del Plan Exequial debe comunicarse a los teléfonos 1800CGIRON o 1800-244-766.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición el PBX en Quito y Guayaquil 6020920, Opción 2, Opción 3.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}​<br></p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que para acceder al beneficio del Plan Exequial debe comunicarse a los teléfonos 1800CGIRON o 1800-244-766.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición el PBX en Quito y Guayaquil 6020920, Opción 2, Opción 3.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nAtentamente,\n{{ticket.assignee.name}}​"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Exequial"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185211.json",
+        "id": 360182185211,
+        "title": "SAC::Servicios Adicionales::Saludsa Travel",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:22Z",
+        "created_at": "2020-11-15T03:15:56Z",
+        "position": 85,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para acceder al servicio Saludsa Travel debe comunicarse al PBX en Quito y Guayaquil 6020920, Opción 2, Opción 2.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que para acceder al servicio Saludsa Travel debe comunicarse al PBX en Quito y Guayaquil 6020920, Opción 2, Opción 2.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Saludsa Travel"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182222971.json",
+        "id": 360182222971,
+        "title": "SAC::Movimientos::Respuesta de inclusión",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:17Z",
+        "created_at": "2020-11-16T00:51:56Z",
+        "position": 100,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud se ha realizado la inclusión del [Tipo de requerimiento, según la categoría \"Inclusiones\"] del contrato No. [Número del contrato].<br>Le recordamos que el movimiento se verá reflejado en su próxima facturación.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente,</p><p>{{ticket.assignee.first_name}}​ <span class=\"atwho-query\">{{ticket.assignee.last_nam</span>e}}​ <br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que de acuerdo a su solicitud se ha realizado la inclusión del [Tipo de requerimiento, según la categoría \"Inclusiones\"] del contrato No. [Número del contrato].\nLe recordamos que el movimiento se verá reflejado en su próxima facturación.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Movimientos::Respuesta de inclusión"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182502012.json",
+        "id": 360182502012,
+        "title": "SAC::Condiciones del Contrato::Vitality",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:13Z",
+        "created_at": "2020-11-15T03:22:18Z",
+        "position": 87,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Para atención de su requerimiento se ha asignado a un Ejecutivo de Vitality. Para cualquier consulta o duda sobre el beneficio Vitality ponemos a su disposición el PBX en Quito y Guayaquil 6020920, Opción 3.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nPara atención de su requerimiento se ha asignado a un Ejecutivo de Vitality. Para cualquier consulta o duda sobre el beneficio Vitality ponemos a su disposición el PBX en Quito y Guayaquil 6020920, Opción 3.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Vitality"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185911.json",
+        "id": 360182185911,
+        "title": "SAC::Cobranzas::Aplicación de pago",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:06Z",
+        "created_at": "2020-11-15T03:55:11Z",
+        "position": 94,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Agradecemos su pago efectuado, el cual ha sido aplicado a la/las cuota(s) del/los mes(es) [Mes pagado]. Le recordamos que queda pendiente las cuotas de/los mes(es) [Detallar los meses pendientes].<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br></p><p><br><br>Atentamente,</p><p>{{ticket.assignee.name}}​</p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nAgradecemos su pago efectuado, el cual ha sido aplicado a la/las cuota(s) del/los mes(es) [Mes pagado]. Le recordamos que queda pendiente las cuotas de/los mes(es) [Detallar los meses pendientes].\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\n\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014720911,
+            "ids": [360014720911, 360014719552, 360014721511]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::Cobranzas::Aplicación de pago"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182501772.json",
+        "id": 360182501772,
+        "title": "SAC::Servicios Adicionales::Enfermedades graves",
+        "active": true,
+        "updated_at": "2020-12-20T14:02:03Z",
+        "created_at": "2020-11-15T03:05:45Z",
+        "position": 81,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que los requisitos para la aplicación del servicio adicional de <i>Enfermedades Graves</i> son los siguientes:<br><br>1. Formulario de reclamación de Equivida de Enfermedades<br>2. Partida de nacimiento o fotocopia de la cédula de identidad del asegurado<br>3. Partida de nacimiento y/o cédula de ciudadanía de los beneficiarios (si aplica o en su caso quien reclama el seguro)<br>4. Documento que compruebe la pertenencia del fallecido al grupo asegurado <br>5. Historia clínica completa<br>6. Certificado médico indicando diagnóstico, tratamiento, etc. <br>7. Información clínica: radiológica, histológica y de laboratorio. <br><br>Nota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.<br><br>El plazo para aviso de siniestro para la cobertura de enfermedades graves es de noventa (90) posteriores a la fecha de ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en los plazos estipulados, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que los requisitos para la aplicación del servicio adicional de Enfermedades Graves son los siguientes:\n\n1. Formulario de reclamación de Equivida de Enfermedades\n2. Partida de nacimiento o fotocopia de la cédula de identidad del asegurado\n3. Partida de nacimiento y/o cédula de ciudadanía de los beneficiarios (si aplica o en su caso quien reclama el seguro)\n4. Documento que compruebe la pertenencia del fallecido al grupo asegurado\n5. Historia clínica completa\n6. Certificado médico indicando diagnóstico, tratamiento, etc.\n7. Información clínica: radiológica, histológica y de laboratorio.\n\nNota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.\n\nEl plazo para aviso de siniestro para la cobertura de enfermedades graves es de noventa (90) posteriores a la fecha de ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en los plazos estipulados, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Enfermedades graves"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182501892.json",
+        "id": 360182501892,
+        "title": "SAC::Servicios Adicionales::Muerte accidental",
+        "active": true,
+        "updated_at": "2020-12-20T13:57:03Z",
+        "created_at": "2020-11-15T03:11:34Z",
+        "position": 82,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que los requisitos para la aplicación del servicio adicional de <i>Muerte Accidental</i> son los siguientes:<br><br>1. Formulario de reclamación de equivida – Muerte Accidental<br>2. Partida de nacimiento o fotocopia de la cédula de ciudadanía del asegurado <br>3. Partida de nacimiento y/o cédula de ciudadanía de los beneficiarios (si aplica o en su caso quien reclama el seguro) <br>4. Documento que compruebe la pertenencia del fallecido al grupo asegurado <br>5. Partida de defunción del asegurado<br>6. Certificado de inhumación y sepultura<br><br>Nota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.<br><br>El plazo para aviso de siniestro para la cobertura de muerte accidental es de noventa (90) días posteriores a la fecha de ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en los plazos estipulados, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}<br></p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que los requisitos para la aplicación del servicio adicional de Muerte Accidental son los siguientes:\n\n1. Formulario de reclamación de equivida – Muerte Accidental\n2. Partida de nacimiento o fotocopia de la cédula de ciudadanía del asegurado\n3. Partida de nacimiento y/o cédula de ciudadanía de los beneficiarios (si aplica o en su caso quien reclama el seguro)\n4. Documento que compruebe la pertenencia del fallecido al grupo asegurado\n5. Partida de defunción del asegurado\n6. Certificado de inhumación y sepultura\n\nNota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.\n\nEl plazo para aviso de siniestro para la cobertura de muerte accidental es de noventa (90) días posteriores a la fecha de ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en los plazos estipulados, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Muerte accidental"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182222791.json",
+        "id": 360182222791,
+        "title": "SAC::Movimientos::Respuesta de exclusión",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:17Z",
+        "created_at": "2020-11-16T00:35:37Z",
+        "position": 99,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud se ha realizado la exclusión del [Tipo de requerimiento, según la categoría \"Exclusiones\"] del contrato No. {{ticket.ticket_field_360022588351}}<br>Le recordamos que el movimiento se verá reflejado en su próxima facturación.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente,<br></p><p>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que de acuerdo a su solicitud se ha realizado la exclusión del [Tipo de requerimiento, según la categoría \"Exclusiones\"] del contrato No. {{ticket.ticket_field_360022588351}}\nLe recordamos que el movimiento se verá reflejado en su próxima facturación.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Movimientos::Respuesta de exclusión"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182498552.json",
+        "id": 360182498552,
+        "title": "SAC::Condiciones del Contrato::ODAS",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:11Z",
+        "created_at": "2020-11-15T01:47:25Z",
+        "position": 77,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}<br></p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para solicitar una Orden de Atención de consultas médicas de forma más ágil ponemos a su disposición los siguiente canales: Aplicación Móvil Saludsa en la opción Dr. Salud o a través del portal Web en el siguiente <a href=\"https://www.saludsapersonas.com/portalclientes/Account/Login\" target=\"_blank\" rel=\"noreferrer\">link</a>.<br><br>Le recordamos que para solicitar ODAS en los planes que tienen deducible, este debe haber sido superado.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}​<br></p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que para solicitar una Orden de Atención de consultas médicas de forma más ágil ponemos a su disposición los siguiente canales: Aplicación Móvil Saludsa en la opción Dr. Salud o a través del portal Web en el siguiente link.\n\nLe recordamos que para solicitar ODAS en los planes que tienen deducible, este debe haber sido superado.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\n\nAtentamente,\n\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::ODAS"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182501912.json",
+        "id": 360182501912,
+        "title": "SAC::Servicios Adicionales::Salud Dental",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:21Z",
+        "created_at": "2020-11-15T03:14:40Z",
+        "position": 84,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para agendar una cita odontológica ponemos a su disposición el PBX en Quito y Guayaquil 6020920, Opción 2 o directamente con nuestro prestador del beneficio Plan Dental “CONFIDENT” debe comunicarse al número: 1800-725833 o 023939853, de Lunes a Viernes de 08h00 a 19h00 y Sábados de 08h00 a 12h00.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que para agendar una cita odontológica ponemos a su disposición el PBX en Quito y Guayaquil 6020920, Opción 2 o directamente con nuestro prestador del beneficio Plan Dental “CONFIDENT” debe comunicarse al número: 1800-725833 o 023939853, de Lunes a Viernes de 08h00 a 19h00 y Sábados de 08h00 a 12h00.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Salud Dental"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185131.json",
+        "id": 360182185131,
+        "title": "SAC::Servicios Adicionales::Help One",
+        "active": true,
+        "updated_at": "2020-12-20T13:56:13Z",
+        "created_at": "2020-11-15T03:13:17Z",
+        "position": 83,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que los requisitos para la aplicación del servicio adicional de <i>Help One</i> son los siguientes:<br><br>1. Formulario de reclamación de equivida – Enfermedades <br>2. Partida de nacimiento o fotocopia de la cédula de ciudadanía del asegurado <br>3. Partida de nacimiento y/o cédula de ciudadanía de los beneficiarios (si aplica o en su caso quien reclama el seguro) <br>4. Documento que compruebe la pertenencia del fallecido al grupo asegurado <br>5. Historia clínica completa <br>6. Certificado médico indicando diagnóstico, tratamiento, etc.<br>7. Información clínica: radiológica, histológica y de laboratorio<br><br>Nota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.<br><br>El plazo para aviso de siniestro para la cobertura de cáncer es de noventa (90) días posteriores a la fecha de ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en los plazos estipulados, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que los requisitos para la aplicación del servicio adicional de Help One son los siguientes:\n\n1. Formulario de reclamación de equivida – Enfermedades\n2. Partida de nacimiento o fotocopia de la cédula de ciudadanía del asegurado\n3. Partida de nacimiento y/o cédula de ciudadanía de los beneficiarios (si aplica o en su caso quien reclama el seguro)\n4. Documento que compruebe la pertenencia del fallecido al grupo asegurado\n5. Historia clínica completa\n6. Certificado médico indicando diagnóstico, tratamiento, etc.\n7. Información clínica: radiológica, histológica y de laboratorio\n\nNota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.\n\nEl plazo para aviso de siniestro para la cobertura de cáncer es de noventa (90) días posteriores a la fecha de ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en los plazos estipulados, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Help One"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185091.json",
+        "id": 360182185091,
+        "title": "SAC::Servicios Adicionales::Seguro de Vida",
+        "active": true,
+        "updated_at": "2020-12-20T14:01:05Z",
+        "created_at": "2020-11-15T03:04:11Z",
+        "position": 80,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que los requisitos para la aplicación del servicio adicional [Nombre del seguro de vida] son los siguientes:<br><br>[Detallar lo requisitos de acuerdo al tipo de seguro/póliza]<br><br>Nota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.<br><br>El beneficiario de esta póliza deberá notificar por escrito a la aseguradora el fallecimiento del asegurado hasta un límite máximo de tres (3) años contados a partir de la ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en el plazo estipulado, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br>{{ticket.assignee.name}}<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que los requisitos para la aplicación del servicio adicional [Nombre del seguro de vida] son los siguientes:\n\n[Detallar lo requisitos de acuerdo al tipo de seguro/póliza]\n\nNota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.\n\nEl beneficiario de esta póliza deberá notificar por escrito a la aseguradora el fallecimiento del asegurado hasta un límite máximo de tres (3) años contados a partir de la ocurrencia del siniestro. En caso de no darse aviso por escrito a la compañía en el plazo estipulado, el siniestro se considerará como extemporáneo y el beneficiario perderá los derechos a los beneficios establecidos en la presente póliza, liberando a la compañía de seguros del pago de la indemnización que habría correspondido.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Seguro de Vida"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182182851.json",
+        "id": 360182182851,
+        "title": "SAC::Servicios Adicionales::Seguro de Desempleo",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:23Z",
+        "created_at": "2020-11-15T01:54:03Z",
+        "position": 79,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que los requisitos para la aplicación del servicio adicional [<b><i>Nombre del seguro de desempleo</i></b>] son los siguientes:<br><br><b><i>[Detallar lo requisitos de acuerdo al tipo de seguro/póliza]</i></b><br><br>Nota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.<br><br>El período de aviso del siniestro es de ciento ochenta (180) días posteriores a la fecha de ocurrencia del siniestro.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.<br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que los requisitos para la aplicación del servicio adicional [Nombre del seguro de desempleo] son los siguientes:\n\n[Detallar lo requisitos de acuerdo al tipo de seguro/póliza]\n\nNota: Este beneficio está respaldado por Equivida, por tanto, de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.\n\nEl período de aviso del siniestro es de ciento ochenta (180) días posteriores a la fecha de ocurrencia del siniestro.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Servicios Adicionales::Seguro de Desempleo"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182218012.json",
+        "id": 360182218012,
+        "title": "SAC::General::Solicitud de información adicional",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:14Z",
+        "created_at": "2020-11-12T14:45:19Z",
+        "position": 68,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Para la atención de la solicitud presentada requerimos nos envíe la siguiente información:<br><br><b>[Campo editable por el agente para detalle de la información solicitada al cliente].</b><br><br>Esperamos contar con su gentil respuesta dentro de los próximos 5 días calendario, en caso de no recibir su respuesta se procederá a cerrar esta solicitud, y tendrá que ingresar una nueva solicitud.<br>Agradecemos su comprensión. <br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contactanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.<br><br><br>Atentamente, <br>{{ticket.assignee.name}}​​ <br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nPara la atención de la solicitud presentada requerimos nos envíe la siguiente información:\n\n[Campo editable por el agente para detalle de la información solicitada al cliente].\n\nEsperamos contar con su gentil respuesta dentro de los próximos 5 días calendario, en caso de no recibir su respuesta se procederá a cerrar esta solicitud, y tendrá que ingresar una nueva solicitud.\nAgradecemos su comprensión.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente Link, contactanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​​ "
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014719792,
+            "ids": [360014719792, 360014723311, 360014721692, 360014723411, 360014723591, 360014722051, 360014720772, 360014719552, 360014720911, "360005390952"]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::General::Solicitud de información adicional"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182846732.json",
+        "id": 360182846732,
+        "title": "SAC::Retencion::Cliente mantiene su contrato",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:19Z",
+        "created_at": "2020-11-18T14:22:50Z",
+        "position": 108,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br>En nombre de Saludsa le hacemos extensivo nuestro sincero agradecimiento por la oportunidad de permitirnos seguir cuidando de su salud [y la de su familia] y valoramos que siga depositando su confianza en nosotros.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nEn nombre de Saludsa le hacemos extensivo nuestro sincero agradecimiento por la oportunidad de permitirnos seguir cuidando de su salud [y la de su familia] y valoramos que siga depositando su confianza en nosotros.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Retencion::Cliente mantiene su contrato"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182114852.json",
+        "id": 360182114852,
+        "title": "SAC::Queja::Respuesta a una Queja",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:19Z",
+        "created_at": "2020-11-11T19:09:03Z",
+        "position": 67,
+        "description": "Respuesta a una Queja",
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}<br></p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>En atención a su requerimiento presentado reiteramos nuestras disculpas por el malestar ocasionado y ratificamos nuestro compromiso de servicio. <br><br>De acuerdo a lo conversado <b>[campo editado por el agente (detallar el acuerdo/solución otorgado al cliente)].</b><br><br>Tomaremos las acciones correctivas pertinentes para que este tipo de inconvenientes no se vuelva a suscitar.<br><br>[Para su respaldo se adjunta la siguiente información:<br>[Detallar documentos adjuntos]]<br><br>Agradecemos su comprensión esperando poder servirle en una próxima oportunidad. Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.<br><br>Atentamente, <br>{{ticket.assignee.name}}​​ <br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nEn atención a su requerimiento presentado reiteramos nuestras disculpas por el malestar ocasionado y ratificamos nuestro compromiso de servicio.\n\nDe acuerdo a lo conversado [campo editado por el agente (detallar el acuerdo/solución otorgado al cliente)].\n\nTomaremos las acciones correctivas pertinentes para que este tipo de inconvenientes no se vuelva a suscitar.\n\n[Para su respaldo se adjunta la siguiente información:\n[Detallar documentos adjuntos]]\n\nAgradecemos su comprensión esperando poder servirle en una próxima oportunidad. Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​​ "
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014720411,
+            "ids": [360014720411, 360014719132, 360014719172, 360014720451, 360014719572, 360014720511, 360014719232, 360014719372, 360014720771, 360014719592, 360014719552, 360014720891, 360014720911, 360014719652, 360014719692, 360014720991, 360014721031, 360014721071, 360014721151, 360014719792, 360014719812, 360014721231, 360014721271, 360014719872, 360014719912, 360014719952, 360014720052, 360014720172, 360014720232, 360014720272, 360014721511, 360014721531, 360014720332, 360014721571, 360014720532, 360014720572, 360014721791, 360014721891, 360014720772, 360014722051, 360014722111, 360014722171, 360014720952, 360014722191, 360014722231, 360014722251, 360014721052, 360014721072, 360014721112, 360014721152, 360014721172, 360014721192, 360014721232, 360014722431, 360014722491, 360014722691, 360014721692, 360014721712, 360014723311, 360014723351, 360014721752, 360014723411, 360014723551, 360014723591, 360014721992, 360014723631, 360014722052, 360014723731, 360014723931, 360014722392, 360014722472, 360014724051, 360014724091, 360014724131, 360014722612, 360014722712, 360014722752, 360014722872, 360014724411, 360014722992, 360014723012, 360014723232, 360014723272, 360014723292, 360014724891, 360014723332, 360014724931, 360014723632, 360014725251, 360014723692, 360014725331, 360014723812, 360014723832, 360014723872, 360014725371, 360014725391, 360014723892, 360014725411, 360014723932]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::Queja::Respuesta a una Queja"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360181908691.json",
+        "id": 360181908691,
+        "title": "SAC::Condiciones del Contrato::Guía médica",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:11Z",
+        "created_at": "2020-11-12T14:59:47Z",
+        "position": 74,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Para acceder a la guía médica de Salud ingrese al siguiente <a href=\"http://guia.drsalud.com/#/guiaMedica\" target=\"_blank\" rel=\"noreferrer\">link</a>, donde visualizará la información de todos nuestros prestadores afiliados.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br></p><p><br>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nPara acceder a la guía médica de Salud ingrese al siguiente link, donde visualizará la información de todos nuestros prestadores afiliados.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n\n{{ticket.assignee.name}}​\n\n\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Guía médica"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182086592.json",
+        "id": 360182086592,
+        "title": "SAC::General::Respuesta a un requerimiento",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:14Z",
+        "created_at": "2020-11-11T16:11:10Z",
+        "position": 66,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>En relación a la solicitud presentada le informamos que <b><i>[Campo editable por el agente según tipo de requerimiento]</i></b>.<br><br>Para su respaldo se adjunta la siguiente información:<br>[Detallar documentos adjuntos]<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.<br><br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\n\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. \n\nEn relación a la solicitud presentada le informamos que [Campo editable por el agente según tipo de requerimiento].\n\nPara su respaldo se adjunta la siguiente información:\n[Detallar documentos adjuntos]\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\n\nAtentamente, \n{{ticket.assignee.name}}​"
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014719792,
+            "ids": [360014719792, 360014723311, 360014721692, 360014723411, 360014723591, 360014722051, 360014720772, 360014722171, 360014719552, 360014720911, "360005390952"]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::General::Respuesta a un requerimiento"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185811.json",
+        "id": 360182185811,
+        "title": "SAC::Condiciones del Contrato::App Experience",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:08Z",
+        "created_at": "2020-11-15T03:46:04Z",
+        "position": 90,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br></p><p>Para acceder a la Aplicación Móvil Experience debe descargar desde su Play Store o Apple Store, y configurar su cuenta de acceso con la información de su contrato.<br></p><p><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​</p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\n\nPara acceder a la Aplicación Móvil Experience debe descargar desde su Play Store o Apple Store, y configurar su cuenta de acceso con la información de su contrato.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::App Experience"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182502752.json",
+        "id": 360182502752,
+        "title": "SAC::Condiciones del Contrato::Solicitud de reembolso",
+        "active": true,
+        "updated_at": "2020-12-20T14:03:09Z",
+        "created_at": "2020-11-15T03:47:53Z",
+        "position": 91,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para solicitar un reembolso ponemos a su disposición los siguiente canales: Aplicación Móvil Saludsa en la opción Reembolso Online o a través del portal Web en el siguiente <a href=\"https://www.saludsa.com/reembolso-online\" target=\"_blank\" rel=\"noreferrer\">Link</a>; en donde deberá adjuntar los documentos detallados a continuación:<br><br>1. Receta médica: con nombre del paciente, diagnóstico, sello y firma del médico <br>2. Exámenes de laboratorio clínico o de imágenes: órdenes de exámenes con diagnóstico médico, resultado e informe y desglose de exámenes realizados<br>3. Facturas: si son físicas deben incluir el diagnóstico médico, si son electrónicas debe enviar el RIDE (PDF) y el XML (DOCUMENTO ALFA NUMÉRICO)<br>4. Procedimientos médicos: informe del procedimiento realizado y factura con su respectivo valor <br>5. Emergencia ambulatoria: atenciones en departamento de emergencia de alguna clínica u hospital, adjuntar la hoja de emergencia (formulario 008) y el detalle de medicinas y desglose de suministros utilizados<br><br>Este requerimiento lo debe solicitar dentro de los 90 días una vez emitida la factura.<br><br>Nota: Saludsa de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​</p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que para solicitar un reembolso ponemos a su disposición los siguiente canales: Aplicación Móvil Saludsa en la opción Reembolso Online o a través del portal Web en el siguiente Link; en donde deberá adjuntar los documentos detallados a continuación:\n\n1. Receta médica: con nombre del paciente, diagnóstico, sello y firma del médico\n2. Exámenes de laboratorio clínico o de imágenes: órdenes de exámenes con diagnóstico médico, resultado e informe y desglose de exámenes realizados\n3. Facturas: si son físicas deben incluir el diagnóstico médico, si son electrónicas debe enviar el RIDE (PDF) y el XML (DOCUMENTO ALFA NUMÉRICO)\n4. Procedimientos médicos: informe del procedimiento realizado y factura con su respectivo valor\n5. Emergencia ambulatoria: atenciones en departamento de emergencia de alguna clínica u hospital, adjuntar la hoja de emergencia (formulario 008) y el detalle de medicinas y desglose de suministros utilizados\n\nEste requerimiento lo debe solicitar dentro de los 90 días una vez emitida la factura.\n\nNota: Saludsa de acuerdo al caso podrá solicitar documentación adicional si así lo requiera.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Solicitud de reembolso"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360181978571.json",
+        "id": 360181978571,
+        "title": "SAC::Condiciones del Contrato::Coordinación de beneficios",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:09Z",
+        "created_at": "2020-11-12T21:01:14Z",
+        "position": 76,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}<br></p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para realizar una coordinación de beneficios ponemos a su disposición los siguiente canales: Aplicación Móvil Saludsa en la opción Reembolso Online o a través del portal Web en el siguiente <a href=\"https://www.saludsapersonas.com/portalclientes/Account/Login\" target=\"_blank\" rel=\"noreferrer\">link</a>; en donde deberá adjuntar los documentos detallados a continuación:<br><br>1. Liquidación original emitida por su otro seguro<br>2. Copias certificadas que respaldan la liquidación (facturas, historia clínica, resultados de exámenes de laboratorio e imagen, recetas médicas).<br><br>Este requerimiento lo debe solicitar dentro de los 90 días una vez emitida la liquidación por parte de su otro seguro o plan de medicina prepagada.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, </p><p>{{ticket.assignee.name}}​​ </p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que para realizar una coordinación de beneficios ponemos a su disposición los siguiente canales: Aplicación Móvil Saludsa en la opción Reembolso Online o a través del portal Web en el siguiente link; en donde deberá adjuntar los documentos detallados a continuación:\n\n1. Liquidación original emitida por su otro seguro\n2. Copias certificadas que respaldan la liquidación (facturas, historia clínica, resultados de exámenes de laboratorio e imagen, recetas médicas).\n\nEste requerimiento lo debe solicitar dentro de los 90 días una vez emitida la liquidación por parte de su otro seguro o plan de medicina prepagada.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente, \n{{ticket.assignee.name}}​​ \n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Coordinación de beneficios"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360181907651.json",
+        "id": 360181907651,
+        "title": "SAC::Liquidaciones::Solicitud de copias de liquidaciones",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:14Z",
+        "created_at": "2020-11-12T14:55:32Z",
+        "position": 73,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001285891"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}<br></p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Sírvase encontrar adjunto las copias de la/las liquidación(es) solicitadas.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, </p><p>{{ticket.assignee.name}}​​ </p><p><span class=\"atwho-inserted\">{{ticket.assignee.name}}</span>​ </p><p><br> </p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nSírvase encontrar adjunto las copias de la/las liquidación(es) solicitadas.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestro canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​​ "
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Liquidaciones::Solicitud de copias de liquidaciones"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182220112.json",
+        "id": 360182220112,
+        "title": "SAC::Cobranzas::Información de canales de pago",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:07Z",
+        "created_at": "2020-11-12T14:53:27Z",
+        "position": 72,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>En esta ocasión ponemos a su disposición los siguientes canales para realizar el pago de su cuota:<br><br>BOTÓN PICHINCHA: A través de la página Web, agencia o punto de pago del Banco Pichincha con el número de identificación del titular del contrato.<br><br>SALUDSA PAY: A través de la página Web de Saludsa, ingresando al siguiente <a href=\"https://apps.saludsa.com/saludsapay/\" target=\"_blank\" rel=\"noreferrer\">Link</a>, para pagos con tarjeta de débito o crédito Visa o Mastercard.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Nota: Es importante informarle que actualmente se encuentra un proceso de débito en curso, con el cual puede originarse un doble pago, si fuera el caso por favor comunicarse a nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://apps.saludsa.com/saludsapay/\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.<br><br>Atentamente, <br>{{ticket.assignee.name}}​​ <br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nEn esta ocasión ponemos a su disposición los siguientes canales para realizar el pago de su cuota:\n\nBOTÓN PICHINCHA: A través de la página Web, agencia o punto de pago del Banco Pichincha con el número de identificación del titular del contrato.\n\nSALUDSA PAY: A través de la página Web de Saludsa, ingresando al siguiente Link, para pagos con tarjeta de débito o crédito Visa o Mastercard.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nNota: Es importante informarle que actualmente se encuentra un proceso de débito en curso, con el cual puede originarse un doble pago, si fuera el caso por favor comunicarse a nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\n\nAtentamente,\n{{ticket.assignee.name}}​​ \n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Cobranzas::Información de canales de pago"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182220932.json",
+        "id": 360182220932,
+        "title": "SAC::Condiciones del Contrato::Estado del contrato",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:10Z",
+        "created_at": "2020-11-12T15:05:26Z",
+        "position": 75,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que a la fecha su contrato se encuentra:<br><br>En estado: {{ticket.ticket_field_360039600451}} </p><p>Bloqueado: {{ticket.ticket_field_360039686512}} <br></p><p>Monto pendiente de pago: $[Monto Mora]: {{ticket.ticket_field_ID}}<br></p><p><br></p><p>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br></p><p><br>{{ticket.assignee.name}}​<br></p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que a la fecha su contrato se encuentra:\n\nEn estado: {{ticket.ticket_field_360039600451}}\nBloqueado: {{ticket.ticket_field_360039686512}}\n\nMonto pendiente de pago: $[Monto Mora]: {{ticket.ticket_field_ID}}\n\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Estado del contrato"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360181976211.json",
+        "id": 360181976211,
+        "title": "SAC::Condiciones del Contrato::Saldos a favor",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:12Z",
+        "created_at": "2020-11-12T20:56:30Z",
+        "position": 71,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que a la fecha dispone de un saldo a favor de ${{ticket.ticket_field_360039653871}}.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. \n\nLe informamos que a la fecha dispone de un saldo a favor de ${{ticket.ticket_field_360039653871}}.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente, \n{{ticket.assignee.name}}​"
+        }, {
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Saldos a favor"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185851.json",
+        "id": 360182185851,
+        "title": "SAC::Condiciones del Contrato::Envío de documentos",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:10Z",
+        "created_at": "2020-11-15T03:51:44Z",
+        "position": 93,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Sírvase encontrar adjunto la copia del documento solicitado.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br></p><p><br><br>Atentamente,</p><p>{{ticket.assignee.name}}​</p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nSírvase encontrar adjunto la copia del documento solicitado.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Envío de documentos"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182222711.json",
+        "id": 360182222711,
+        "title": "SAC::Movimientos::Cambio de forma de pago",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:15Z",
+        "created_at": "2020-11-16T00:29:25Z",
+        "position": 98,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br></p><p><br>Para realizar el cambio de forma de pago sírvase completar el documento enviado y adjuntar la copia de su documento de identificación.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​<br></p><p><br> </p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\n\nPara realizar el cambio de forma de pago sírvase completar el documento enviado y adjuntar la copia de su documento de identificación.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n\n\n"
+        }],
+        "restriction": null,
+        "attachments": [716111],
+        "highlights": {
+            "title": "<em>SAC</em>::Movimientos::Cambio de forma de pago"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182846572.json",
+        "id": 360182846572,
+        "title": "SAC::Retencion::Cliente no mantiene su contrato",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:20Z",
+        "created_at": "2020-11-18T14:20:27Z",
+        "position": 107,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>En nombre de Saludsa le hacemos extensivo nuestro sincero agradecimiento por la oportunidad brindada en el cuidado de su salud [y la de su familia], estaremos gustosos de servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.</p><p><br></p><p>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nEn nombre de Saludsa le hacemos extensivo nuestro sincero agradecimiento por la oportunidad brindada en el cuidado de su salud [y la de su familia], estaremos gustosos de servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Retencion::Cliente no mantiene su contrato"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185691.json",
+        "id": 360182185691,
+        "title": "SAC::Condiciones del Contrato::App Saludsa/Portal Saludsa",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:09Z",
+        "created_at": "2020-11-15T03:33:15Z",
+        "position": 88,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. </p><p><br></p><p>Para acceder a la Aplicación Móvil Saludsa ingrese al siguiente <a href=\"https://www.saludsa.com/app-saludsa\" target=\"_blank\" rel=\"noreferrer\" style=\"background-color: rgb(255, 255, 255);\">Link</a>, y para el Portal Web Saludsa ingrese al <a href=\"https://www.saludsa.com/\" target=\"_blank\" rel=\"noreferrer\" style=\"background-color: rgb(255, 255, 255);\">Link</a>. Le informamos que si ingresa por primera vez a estos canales su Usuario es su número de documento de identificación y su Contraseña es su fecha de nacimiento en el formato día mes y año, ejemplo 01012020.</p><p><br></p><p>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.</p><p><br></p><p>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\" style=\"background-color: rgb(255, 255, 255);\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\" style=\"background-color: rgb(255, 255, 255);\">vive@saludsa.com.ec</a>.</p><p><br></p><p>Atentamente, </p><p>{{ticket.assignee.name}}​<br></p><p><br> </p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nPara acceder a la Aplicación Móvil Saludsa ingrese al siguiente Link, y para el Portal Web Saludsa ingrese al Link.\nLe informamos que si ingresa por primera a estos canales su Usuario es su número de documento de identificación y su Contraseña es su fecha de nacimiento en el formato día mes y año, ejemplo 01012020.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::App Saludsa&#x2F;Portal Saludsa"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182527931.json",
+        "id": 360182527931,
+        "title": "SAC::General::Cierre de ticket por cliente ausente",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:13Z",
+        "created_at": "2020-11-18T14:27:14Z",
+        "position": 109,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que se ha registrado una solicitud de atención el {{ticket.created_at}} , la cual no fue posible gestionar debido a que no contamos con su presencia; por tal motivo, se procede con el cierre y le invitamos hacer contacto con nosotros a través de nuestros canales: <br><br>Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que se ha registrado una solicitud de atención el [Fecha de creación del ticket]  , la cual no fue posible gestionar debido a que no contamos con su presencia; por tal motivo, se procede con el cierre y le invitamos hacer contacto con nosotros a través de nuestros canales:\n\nOficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }, {
+            "field": "custom_fields_360039613531",
+            "value": "ausente_si"
+        }, {
+            "field": "status",
+            "value": "solved"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::General::Cierre de ticket por cliente ausente"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182545612.json",
+        "id": 360182545612,
+        "title": "SAC::Movimientos::Emisión y entrega de tarjeta adicional",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:16Z",
+        "created_at": "2020-11-16T01:06:53Z",
+        "position": 103,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud se ha realizado la entrega de la tarjeta solicitada a la dirección [Dirección de correspondencia].<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que de acuerdo a su solicitud se ha realizado la entrega de la tarjeta solicitada a la dirección [Dirección de correspondencia].\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Movimientos::Emisión y entrega de tarjeta adicional"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182848852.json",
+        "id": 360182848852,
+        "title": "SAC::Renovacion::Detalle de listas/administradores - Producto SmartPlan",
+        "active": true,
+        "updated_at": "2020-11-24T12:48:19Z",
+        "created_at": "2020-11-18T14:35:02Z",
+        "position": 111,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Por favor proceder de acuerdo a la siguiente información:<br><br>LISTAS<br></p><p><br></p><table width=\"320\"> <tbody><tr> <td width=\"80\">No.</td> <td width=\"80\">Alias</td> <td width=\"80\">Nivel</td> <td width=\"80\">Monto Covertura</td> </tr> <tr> <td>1</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>2</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>3</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>4</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>5</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>6</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>7</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>8</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>9</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>10</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> </tbody></table><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Por favor proceder de acuerdo a la siguiente información:\n\nLISTAS\n\n​\n\n\n\n\n\n\n\n\n\n"
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014721791,
+            "ids": [360014721791, 360014721891]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::Renovacion::Detalle de listas&#x2F;administradores - Producto SmartPlan"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182844212.json",
+        "id": 360182844212,
+        "title": "SAC::Prestacion del Servicio::Aplicación de servicio de desgravamen",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:18Z",
+        "created_at": "2020-11-18T14:04:57Z",
+        "position": 104,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001285911"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud presentada y requisitos entregados se ha procedido a la aplicación de Servicio de Desgravamen desde el {{ticket.ticket_field_360039631131}} hasta {{ticket.ticket_field_360039631151}}, una vez finalizado se aplicarán los débitos recurrentes autorizados.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que de acuerdo a su solicitud presentada y requisitos entregados se ha procedido a la aplicación de Servicio de Desgravamen desde el {{ticket.ticket_field_360039631131}} hasta {{ticket.ticket_field_360039631151}}, una vez finalizado se aplicarán los débitos recurrentes autorizados.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Prestacion del Servicio::Aplicación de servicio de desgravamen"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182222691.json",
+        "id": 360182222691,
+        "title": "SAC::Movimientos::Actualización de información personal/o del contrato",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:15Z",
+        "created_at": "2020-11-16T00:27:37Z",
+        "position": 97,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud se ha realizado la actualización de la información de [Tipo de requerimiento].<br>En caso de que la información actualizada corresponda a datos de su factura o forma de pago, serán reflejados desde la próxima facturación.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que de acuerdo a su solicitud se ha realizado la actualización de la información de [Tipo de requerimiento].\nEn caso de que la información actualizada corresponda a datos de su factura o forma de pago, serán reflejados desde la próxima facturación.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Movimientos::Actualización de información personal&#x2F;o del contrato"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182529331.json",
+        "id": 360182529331,
+        "title": "SAC::Suscripcion::Detalle de listas/administradores - Producto Pool/Plan Empresarial",
+        "active": true,
+        "updated_at": "2020-11-24T13:01:10Z",
+        "created_at": "2020-11-18T14:37:37Z",
+        "position": 112,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Por favor proceder de acuerdo a la siguiente información:<br><br>LISTAS<br></p><p><br></p><table width=\"219\"> <tbody><tr> <td width=\"29\">No.</td> <td width=\"37\">Alias</td> <td width=\"40\">Nivel</td> <td width=\"113\">Monto Covertura</td> </tr> <tr> <td>1</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>2</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>3</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>4</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>5</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>6</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>7</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>8</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>9</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>10</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> </tbody></table><p>​<br><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Por favor proceder de acuerdo a la siguiente información:\n\nLISTAS\n​\n\n\n\n\n\n\n\n\n\n"
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014728152,
+            "ids": [360014728152, 360014728451, 360014728251, 360014728331]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::Suscripcion::Detalle de listas&#x2F;administradores - Producto Pool&#x2F;Plan Empresarial"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182223011.json",
+        "id": 360182223011,
+        "title": "SAC::Movimientos::Inclusiones e Exclusiones solicitada en período de cierre",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:16Z",
+        "created_at": "2020-11-16T00:56:17Z",
+        "position": 101,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273892"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br></p><p><br>Le informamos que de acuerdo a su solicitud de [Categoría del formulario de Movimientos de la opción \"Individual\" (aplica únicamente para las opciones \"Exclusión\" e \"Inclusión\")] del [Tipo de requerimiento del formulario de Movimientos, opción \"Individual\"], se verá reflejada en la próxima facturación.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​</p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que de acuerdo a su solicitud de [Categoría del formulario de Movimientos de la opción \"Individual\" (aplica únicamente para las opciones \"Exclusión\" e \"Inclusión\")] del [Tipo de requerimiento del formulario de Movimientos, opción \"Individual\"], se verá reflejada en la próxima facturación.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Movimientos::Inclusiones e Exclusiones solicitada en período de cierre"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182222651.json",
+        "id": 360182222651,
+        "title": "SAC::Cobranzas::Devolución de valores (con saldo a favor al contrato)",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:06Z",
+        "created_at": "2020-11-16T00:24:03Z",
+        "position": 96,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud se ha registrado el saldo a favor al contrato No. [Número de contrato] por el valor de $[Detallar valor], el cual será aplicado para el pago de las siguientes cuotas.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente,</p><p>{{ticket.assignee.name}}​​ <br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que de acuerdo a su solicitud se ha registrado el saldo a favor al contrato No. [Número de contrato] por el valor de $[Detallar valor], el cual será aplicado para el pago de las siguientes cuotas.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​​\n\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Cobranzas::Devolución de valores (con saldo a favor al contrato)"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182848152.json",
+        "id": 360182848152,
+        "title": "SAC::Suscripcion::Detalle de listas/administradores - Producto SmartPlan",
+        "active": true,
+        "updated_at": "2020-11-24T13:00:13Z",
+        "created_at": "2020-11-18T14:32:11Z",
+        "position": 110,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Por favor proceder de acuerdo a la siguiente información:<br><br>ADMINITRADORES<br><br></p><table width=\"219\"> <tbody><tr> <td width=\"29\">No.</td> <td width=\"37\">Alias</td> <td width=\"40\">Nivel</td> <td width=\"113\">Monto Covertura</td> </tr> <tr> <td>1</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>2</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>3</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>4</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>5</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>6</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>7</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>8</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>9</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>10</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> </tbody></table><p><br><br>LISTAS</p><p><br></p><table width=\"379\"> <tbody><tr> <td width=\"29\">No.</td> <td width=\"37\">Nombres Completos</td> <td width=\"40\">Número de Identificación</td> <td width=\"113\">Correo Electrónico</td> <td width=\"80\">Celular</td> <td width=\"80\">Teléfono</td> </tr> <tr> <td>1</td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>2</td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>3</td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>4</td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>5</td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> </tbody></table><p>​<br><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Por favor proceder de acuerdo a la siguiente información:\n\nADMINITRADORES\n\n​\n\n\nLISTAS\n​\n\n\n\n"
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014731031,
+            "ids": [360014731031, 360014730991]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::Suscripcion::Detalle de listas&#x2F;administradores - Producto SmartPlan"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182185931.json",
+        "id": 360182185931,
+        "title": "SAC::Cobranzas::Devolución de valores (con transferencia bancaria)",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:07Z",
+        "created_at": "2020-11-15T03:58:07Z",
+        "position": 95,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que se ha realizado la transferencia del valor $[Detallar valor] a la cuenta o tarjeta de crédito de la entidad bancaria [Entidad Bancaria].<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente,</p><p>{{ticket.assignee.name}}​​ <br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que se ha realizado la transferencia del valor $[Detallar valor] a la cuenta o tarjeta de crédito de la entidad bancaria [Entidad Bancaria].\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Cobranzas::Devolución de valores (con transferencia bancaria)"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182502712.json",
+        "id": 360182502712,
+        "title": "SAC::Condiciones del Contrato::Prestadores Red Cero Trámites",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:12Z",
+        "created_at": "2020-11-15T03:44:28Z",
+        "position": 89,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Para acceder a la guía de Prestadores Red Cero Trámites ingrese al siguiente <a href=\"http://guia.drsalud.com/#/buscador/centroMedico\" target=\"_blank\" rel=\"noreferrer\">link</a>, donde visualizará la información de todos nuestros prestadores afiliados.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br></p><p><br></p><p>Atentamente,<br></p><p>{{ticket.assignee.name}}​</p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nPara acceder a la guía de Prestadores Red Cero Trámites ingrese al siguiente link, donde visualizará la información de todos nuestros prestadores afiliados.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Prestadores Red Cero Trámites"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182502792.json",
+        "id": 360182502792,
+        "title": "SAC::Condiciones del Contrato::Servicio de desgravamen (requisitos)",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:12Z",
+        "created_at": "2020-11-15T03:50:28Z",
+        "position": 92,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para solicitar el servicio de desgravamen debe presentar los documentos detallados a continuación según corresponda:<br><br>Escenario al menos un beneficiario mayor de edad:<br>1. Copia Posesión Efectiva (Opcional)<br>2. Acta de Defunción (Original)<br>3. Carta firmada por todos los beneficiarios mayores de edad solicitando el cambio de titularidad y designando a la persona que será el nuevo titular (prevalece sobre documento de posesión efectiva). De acuerdo a carta adjunta (que indique que el nuevo titular ha leído y acepta las condiciones contractuales).<br>4. Copia de cédula de ciudadanía o pasaporte de beneficiarios mayores de edad y del nuevo titular designado.<br>5. Formulario de modificación de cambio de débito o cambio de forma de pago.<br>6. Formulario de modificación de contrato donde se actualizará toda la información como: números telefónicos, correos electrónicos y dirección para tener un contacto efectivo con el cliente<br><br>Escenario ningún beneficiario mayor de edad:<br>1. Copia Posesión Efectiva (Opcional)<br>2. Acta de Defunción (Original)<br>3. Carta firmada por el tutor legal del menor(es) de edad solicitando el cambio de titularidad y designando a la persona que será el nuevo titular (prevalece sobre documento de posesión efectiva). De acuerdo a carta adjunta (que indique que el nuevo titular ha leído y acepta las condiciones contractuales). <br>4. Copia de cédula de ciudadanía o pasaporte de nuevo titular.<br>5. Formulario de modificación de cambio de débito o cambio de forma de pago.<br>6. Formulario de modificación de contrato donde se actualizará toda la información como: números telefónicos, correos electrónicos y dirección para tener un contacto efectivo con el cliente.<br>7. Documento legal que certifique la persona que es el tutor del menor(es) de edad. (Opcional). <br>En caso de que existan varios beneficiarios menores de edad con diferentes tutores legales, se requerirá de un documento firmado por los tutores designando la persona que será la nueva titular. Considerar dar la alternativa de independizar a los beneficiarios al terminar el período de desgravamen.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br><br></p><p>Atentamente,</p><p>{{ticket.assignee.name}}​</p><p><br></p>"
+        }],
+        "restriction": null,
+        "attachments": [715891, 715911, 906472],
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Servicio de desgravamen (requisitos)"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182845792.json",
+        "id": 360182845792,
+        "title": "SAC::Prestacion del Servicio::Aplicación de servicios adicionales",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:18Z",
+        "created_at": "2020-11-18T14:13:22Z",
+        "position": 105,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que de acuerdo a su solicitud presentada y requisitos entregados se ha procedido a la aplicación del beneficio <b>[Detalle del Servicio Adicional]</b> por el valor de $<b>[Detallar el valor]</b>.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. \n\nLe informamos que de acuerdo a su solicitud presentada y requisitos entregados se ha procedido a la aplicación del beneficio [Detalle del Servicio Adicional] por el valor de $[Detallar el valor].\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente, \n{{ticket.assignee.name}}​"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Prestacion del Servicio::Aplicación de servicios adicionales"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182529831.json",
+        "id": 360182529831,
+        "title": "SAC::Renovacion::Detalle de listas/administradores - Pool/Plan Empresarial",
+        "active": true,
+        "updated_at": "2020-11-24T13:01:56Z",
+        "created_at": "2020-11-18T14:43:09Z",
+        "position": 113,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Por favor proceder de acuerdo a la siguiente información:<br><br>LISTAS<br><br></p><table width=\"219\"> <tbody><tr> <td width=\"29\">No.</td> <td width=\"37\">Alias</td> <td width=\"40\">Nivel</td> <td width=\"113\">Monto Covertura</td> </tr> <tr> <td>1</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>2</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>3</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>4</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>5</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>6</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>7</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>8</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>9</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> <tr> <td>10</td> <td> <br></td> <td> <br></td> <td> <br></td> </tr> </tbody></table><p><br><br><br><br><br><br><br><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Por favor proceder de acuerdo a la siguiente información:\n\nLISTAS\n\n​\n\n\n\n\n\n\n\n\n"
+        }],
+        "restriction": {
+            "type": "Group",
+            "id": 360014721791,
+            "ids": [360014721791, 360014721891]
+        },
+        "highlights": {
+            "title": "<em>SAC</em>::Renovacion::Detalle de listas&#x2F;administradores - Pool&#x2F;Plan Empresarial"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360181905551.json",
+        "id": 360181905551,
+        "title": "SAC::Cobranzas::Información de cuentas bancarias para cliente bancarizado",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:08Z",
+        "created_at": "2020-11-12T14:50:51Z",
+        "position": 70,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>En relación a la solicitud presentada detallamos las cuentas bancarias que Saludsa tiene a su disposición para el pago de sus valores:<br><br>RUC SALUDSA 1791257049001<br><br>CUENTAS CORRIENTE SALUD S.A.:<br>BANCO DE GUAYAQUIL: 6128262<br>BANCO DEL AUSTRO: 17021702<br>BANCO DEL PACIFICO: 2969831<br>BANCO BOLIVARIANO: 20035176<br>PRODUBANCO: 5529174<br>BANCO DEL PICHINCHA: 3075407704<br>INTERNACIONAL: 800098996<br>BANCO MACHALA: 113008166<br>BANCO AMAZONAS: 3069156<br>PICHINCHA 2458784 (Aplica para depósitos en Guayaquil)<br><br>Le recordamos enviar el comprobante de pago con sus datos personales (número de cédula de Ciudadanía) al correo <b>[mostrar correo electrónico según corresponda a la región del contrato, Sierra cobranzas@saludsa.com.ec, Costa <a href=\"mailto:cobranzasgye@saludsa.com.ec\">cobranzasgye@saludsa.com.ec</a>]</b><br><br>Recuerde que su contrato tiene un débito bancario autorizado el cual se encuentra en proceso.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}​​ </p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nEn relación a la solicitud presentada detallamos las cuentas bancarias que Saludsa tiene a su disposición para el pago de sus valores:\n\nRUC SALUDSA 1791257049001\n\nCUENTAS CORRIENTE SALUD S.A.:\nBANCO DE GUAYAQUIL: 6128262\nBANCO DEL AUSTRO: 17021702\nBANCO DEL PACIFICO: 2969831\nBANCO BOLIVARIANO: 20035176\nPRODUBANCO: 5529174\nBANCO DEL PICHINCHA: 3075407704\nINTERNACIONAL: 800098996\nBANCO MACHALA: 113008166\nBANCO AMAZONAS: 3069156\nPICHINCHA 2458784 (Aplica para depósitos en Guayaquil)\n\nLe recordamos enviar el comprobante de pago con sus datos personales (número de cédula de Ciudadanía) al correo [mostrar correo electrónico según corresponda a la región del contrato, Sierra cobranzas@saludsa.com.ec, Costa cobranzasgye@saludsa.com.ec]\n\nRecuerde que su contrato tiene un débito bancario autorizado el cual se encuentra en proceso.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nAtentamente,\n{{ticket.assignee.name}}​​ "
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Cobranzas::Información de cuentas bancarias para cliente bancarizado"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182218832.json",
+        "id": 360182218832,
+        "title": "SAC::Cobranzas::Información de cuentas bancarias para pago directo",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:08Z",
+        "created_at": "2020-11-12T14:48:44Z",
+        "position": 69,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}</p><p>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>En relación a la solicitud presentada detallamos las cuentas bancarias que Saludsa tiene a su disposición para el pago de sus valores:<br><br>RUC SALUDSA 1791257049001<br><br>CUENTAS CORRIENTE SALUD S.A.:<br>BANCO DE GUAYAQUIL: 6128262<br>BANCO DEL AUSTRO: 17021702<br>BANCO DEL PACIFICO: 2969831<br>BANCO BOLIVARIANO: 20035176<br>PRODUBANCO: 5529174<br>BANCO DEL PICHINCHA: 3075407704<br>INTERNACIONAL: 800098996<br>BANCO MACHALA: 113008166<br>BANCO AMAZONAS: 3069156<br>PICHINCHA 2458784 (Aplica para depósitos en Guayaquil)<br><br>Le recordamos enviar el comprobante de pago con sus datos personales (número de cédula de Ciudadanía) al correo [<b>mostrar correo electrónico según corresponda a la región del contrato, Sierra <a href=\"mailto:cobranzas@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">cobranzas@saludsa.com.ec</a>, Costa <a href=\"mailto:cobranzasgye@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">cobranzasgye@saludsa.com.ec</a></b>]<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Atentamente, <br>{{ticket.assignee.name}}​​ <br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\n\n\nNo. Solicitud: {{ticket.id}}\n\nContrato: {{ticket.ticket_field_360039631111}}\n\n\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. \n\nEn relación a la solicitud presentada detallamos las cuentas bancarias que Saludsa tiene a su disposición para el pago de sus valores:\n\nRUC SALUDSA 1791257049001\n\nCUENTAS CORRIENTE SALUD S.A.:\nBANCO DE GUAYAQUIL: 6128262\nBANCO DEL AUSTRO: 17021702\nBANCO DEL PACIFICO: 2969831\nBANCO BOLIVARIANO: 20035176\nPRODUBANCO: 5529174\nBANCO DEL PICHINCHA: 3075407704\nINTERNACIONAL: 800098996\nBANCO MACHALA: 113008166\nBANCO AMAZONAS: 3069156\nPICHINCHA 2458784 (Aplica para depósitos en Guayaquil)\n\nLe recordamos enviar el comprobante de pago con sus datos personales (número de cédula de Ciudadanía) al correo [mostrar correo electrónico según corresponda a la región del contrato, Sierra cobranzas@saludsa.com.ec, Costa cobranzasgye@saludsa.com.ec]\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nAtentamente, \n{{ticket.assignee.name}}​​ "
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Cobranzas::Información de cuentas bancarias para pago directo"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182499112.json",
+        "id": 360182499112,
+        "title": "SAC::Condiciones del Contrato::Autorización de solicitud de cobertura",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:09Z",
+        "created_at": "2020-11-15T01:49:38Z",
+        "position": 78,
+        "description": null,
+        "actions": [{
+            "field": "ticket_form_id",
+            "value": "360001273832"
+        }, {
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br></p><p>Beneficiario: {{ticket.ticket_field_360021773692}}<br></p><p>Contrato: {{ticket.ticket_field_360039631111}}<br></p><p><br></p><p>Reciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio. <br><br>Le informamos que para solicitar su autorización médica en línea puede ingresar al siguiente <a href=\"https://serviciosaludsa.zendesk.com/hc/es/articles/360035875792-Solicitud-de-Cobertura-en-L%C3%Adnea\" target=\"_blank\" rel=\"noreferrer\">link</a>. Recuerde adjuntar los siguientes documentos:<br><br>1. Formulario de solicitud de cobertura completamente lleno y con firma de su médico tratante, incluye el consentimiento informado.<br>2. Historia clínica (proporcionada por el médico, según el formato que el disponga).<br>3. Resultados de exámenes con diagnóstico médico.<br><br>Una vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br></p><p>{{ticket.assignee.name}}​<br></p><p><br> </p><p><br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nReciba un cordial saludo de quienes conformamos Saludsa día a día trabajamos inspirados en ofrecerle una experiencia única de servicio.\n\nLe informamos que para solicitar su autorización médica en línea puede ingresar al siguiente link. Recuerde adjuntar los siguientes documentos:\n\n1. Formulario de solicitud de cobertura completamente lleno y con firma de su médico tratante, incluye el consentimiento informado.\n2. Historia clínica (proporcionada por el médico, según el formato que el disponga).\n3. Resultados de exámenes con diagnóstico médico.\n\nUna vez atendido su requerimiento se procede con el cierre de su solicitud, esperando servirle en una próxima oportunidad.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Condiciones del Contrato::Autorización de solicitud de cobertura"
+        }
+    }, {
+        "url": "https://servicioexperience1562940791.zendesk.com/api/v2/macros/360182846032.json",
+        "id": 360182846032,
+        "title": "SAC::Retencion::Cliente no mantiene su contrato (posible reactivación)",
+        "active": true,
+        "updated_at": "2020-12-20T13:36:20Z",
+        "created_at": "2020-11-18T14:17:42Z",
+        "position": 106,
+        "description": null,
+        "actions": [{
+            "field": "comment_value_html",
+            "value": "<p>Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}</p><p><br></p><p>No. Solicitud: {{ticket.id}}<br>Beneficiario: {{ticket.ticket_field_360021773692}}<br>Contrato: {{ticket.ticket_field_360039631111}}</p><p><br></p><p>En nombre de Saludsa le hacemos extensivo nuestro sincero agradecimiento por la oportunidad brindada en el cuidado de su salud [y la de su familia], estaremos gustosos de continuar brindándole nuestros servicios. Le recordamos que puede solicitar la reactivación de su contrato con continuidad dentro de los 90 días contados a partir de la fecha efecto de la anulación del contrato. <br>Para la aplicación de la reactivación deberá realizar el pago de las cuotas por los meses transcurridos mientras el contrato estuvo anulado.<br><br>Para cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente <a href=\"https://bit.ly/3ajNSDY\" target=\"_blank\" rel=\"noreferrer\">Link</a>, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo <a href=\"mailto:vive@saludsa.com.ec\" target=\"_blank\" rel=\"noreferrer\">vive@saludsa.com.ec</a>.<br><br>Atentamente, <br>{{ticket.assignee.name}}​<br></p>"
+        }, {
+            "field": "comment_value",
+            "value": "Estimado/a {% if ticket.ticket_form == 'Liquidaciones' or ticket.ticket_form == 'Prestación del Servicio' or ticket.ticket_form == 'Cobranzas Individual' or ticket.ticket_form == 'Movimientos Individual' or ticket.ticket_form == 'Condiciones del Contrato Individual' %}{{ticket.ticket_field_360021839291}}{% else %}{{ ticket.ticket_field_360028051191}}{% endif %}\n\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nNo. Solicitud: {{ticket.id}}\nBeneficiario: {{ticket.ticket_field_360021773692}}\nContrato: {{ticket.ticket_field_360039631111}}\n\nEn nombre de Saludsa le hacemos extensivo nuestro sincero agradecimiento por la oportunidad brindada en el cuidado de su salud [y la de su familia], estaremos gustosos de continuar brindándole nuestros servicios. Le recordamos que puede solicitar la reactivación de su contrato con continuidad dentro de los 90 días contados a partir de la fecha efecto de la anulación del contrato.\nPara la aplicación de la reactivación deberá realizar el pago de las cuotas por los meses transcurridos mientras el contrato estuvo anulado.\n\nPara cualquier consulta o duda sobre esta comunicación ponemos a su disposición nuestros canales de atención: Oficina Virtual a través del siguiente Link, contáctanos al 6020920, opción 2, en Cuenca (07) 2880913 o escríbenos a nuestro correo vive@saludsa.com.ec.\n\nAtentamente,\n{{ticket.assignee.name}}​\n"
+        }],
+        "restriction": null,
+        "highlights": {
+            "title": "<em>SAC</em>::Retencion::Cliente no mantiene su contrato (posible reactivación)"
+        }
+    }]
+}

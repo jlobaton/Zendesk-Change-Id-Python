@@ -1,0 +1,24 @@
+echo "#######"
+echo "######## ENVIAR AL SERVIDOR POR FTP ######"
+#######
+
+HOST=ftp.seguridadsistema.com.ve  #This is the FTP servers host or IP address.
+USER=sysjm@seguridadsistema.com.ve   #This is the FTP user that has access to the server.
+PASS=8HT/gw$5%FaT-/        #This is the password for the FTP user.
+Origen=/home/jlobaton/Desarrollo/Clientes/Zerviz/CambiarId-Zendesk/
+
+#/home/servidor/Dropbox/backup_automatico/2016/Tempo/junio/
+#/home/servidor/Dropbox/backup_automatico/2014/Tempo/junio
+
+DestinoFtp=/public_html/
+
+cd $Origen
+ftp -inv $HOST 4156<< EOF
+bell
+user $USER #PASS
+cd $DestinoFtp
+put generarJsonMacro.py
+bye
+EOF
+
+##############
